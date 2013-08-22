@@ -39,13 +39,13 @@ Examples
 
 Example usage::
 
-    (get ~/EC958.gff)
+    #(get ~/EC958.gff)
     $ ./to-gff ~/st131_100/ec958.pacbio.annotation-v10.embl ~/ec958.gff --embl
 
-    (get ~/EC958.gff)
+    #(get ~/EC958.gff)
     $ ./to-gff ~/st131_100/ec958.pacbio.annotation-v10.embl ~/ec958.gff
 
-    (get ~/EC958.gff & EC958.fa)
+    #(get ~/EC958.gff & EC958.fa)
     $ ./to-gff ~/ST131_100/EC958.pacbio.annotation-v10.embl ~/EC958.gff --embl --getfasta
 
 
