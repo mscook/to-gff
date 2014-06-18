@@ -18,7 +18,7 @@ Generate gff file from EMBL/Genbank for QUAST
 """
 
 __title__        = 'to_gff'
-__version__      = '0.1'
+__version__      = '0.1.1'
 __description__  = "Generate gff file from EMBL/Genbank for QUAST"
 __author__       = 'Mitchell Stanton-Cook'
 __license__      = 'ECL 2.0'
