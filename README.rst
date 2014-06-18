@@ -1,13 +1,23 @@
 Generate GFF file from EMBL/Genbank
 ===================================
 
-This tool makes it easy to get a .fa and .gff from input GenBank or EMBL 
+.. image:: https://travis-ci.org/mscook/to-gff.png?branch=master
+        :target: https://travis-ci.org/mscook/to-gff
+        |
+.. image:: https://landscape.io/github/mscook/to-gff/master/landscape.png
+        :target: https://landscape.io/github/mscook/to-gff/master
+        :alt: Code Health
+
+
+About
+-----
+
+This tool makes it easy to get a .fa and .gff from given GenBank or EMBL 
 files.
 
-QUAST: Quality Assessment Tool for Genome Assemblies 
-(http://bioinf.spbau.ru/quast) wants references and genes in FASTA format and 
-GFF respectively. Most often our internal completed/closed strains are 
-**only**  available in GenBank or EMBL format.
+QUAST_: Quality Assessment Tool for Genome Assemblies wants references and 
+genes in FASTA format and GFF respectively. Most often our internal 
+completed/closed strains are **only**  available in GenBank or EMBL format.
 
 
 Usage
@@ -55,3 +65,7 @@ Requirements
 Requires following (thanks to the authors):
     * bcbio-gff>=0.2
     * biopython>=1.62b
+
+    
+    
+.. _QUAST: http://bioinf.spbau.ru/quast
