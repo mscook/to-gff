@@ -19,7 +19,7 @@ Usage
 
 Something like::
 
-    ./to-gff -h
+    $ to-gff -h
     usage: to-gff [-h] [-v] [--embl] [--getfasta] in_file out_file
 
     to_gff v0.1 - Generate gff file from EMBL/Genbank for QUAST
@@ -43,14 +43,15 @@ Examples
 
 Example usage::
 
-    #(get ~/EC958.gff)
-    $ ./to-gff ~/st131_100/ec958.pacbio.annotation-v10.embl ~/ec958.gff --embl
+    # get data file 
+    $ wget http://beatsonlab.com/static/downloads/EC958.chr.complete.embl
+    
+    # get ~/EC958.gff
+    $ to-gff EC958.chr.complete.embl ec958.gff --embl
 
-    #(get ~/EC958.gff)
-    $ ./to-gff ~/st131_100/ec958.pacbio.annotation-v10.embl ~/ec958.gff
-
-    #(get ~/EC958.gff & EC958.fa)
-    $ ./to-gff ~/ST131_100/EC958.pacbio.annotation-v10.embl ~/EC958.gff --embl --getfasta
+    # get ~/EC958.gff & EC958.fa 
+    $ rm ec958.gff
+    $ to-gff EC958.chr.complete.embl ec958.gff --embl --getfasta
 
 
 Requirements
