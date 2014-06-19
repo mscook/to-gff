@@ -1,19 +1,13 @@
 Generate GFF file from EMBL/Genbank
 ===================================
 
-.. image:: https://travis-ci.org/mscook/to-gff.png?branch=master
-        :target: https://travis-ci.org/mscook/to-gff
-        |
-.. image:: https://landscape.io/github/mscook/to-gff/master/landscape.png
-        :target: https://landscape.io/github/mscook/to-gff/master
-        :alt: Code Health
-
-
-About
------
 
 This tool makes it easy to get a .fa and .gff from given GenBank or EMBL 
 files.
+
+
+Why?
+----
 
 QUAST_: Quality Assessment Tool for Genome Assemblies wants references and 
 genes in FASTA format and GFF respectively. Most often our internal 
