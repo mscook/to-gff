@@ -29,7 +29,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 if sys.argv[-1] == 'clean':
-    os.system('rm -rf to-gff.egg-info build dist')
+    os.system('rm -rf to_gff.egg-info build dist')
     sys.exit()
 
 if sys.argv[-1] == 'docs':
